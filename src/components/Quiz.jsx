@@ -19,10 +19,10 @@ function Quiz() {
 
   return (
     <div>
-      {questions[currentQuestion]['prompt']}
+       {questions[currentQuestion]['prompt']}                    {/* for questions */}
       {
         ['A', 'B', 'C', 'D'].map((opt) => (
-          <button onClick={()=>setOptionChosen(`option${opt}`)}>{questions[currentQuestion][`option${opt}`]}</button>
+          <button onClick={()=>setOptionChosen(`option${opt}`)}>{questions[currentQuestion][`option${opt}`]}</button>  // for options 
         ))
       }
       {
