@@ -12,13 +12,13 @@ function User() {
 
 
   function startPlaying() {
-    // console.log(userRef.current.value);
+  
     setUsername(userRef.current.value);
     setGamestate("playing");
   }
   return (
     <div>
-      <input type="text" placeholder='Enter useName' ref={userRef} />
+      <input type="text" placeholder='Enter your name' ref={userRef} />
       <button onClick={startPlaying}>Start Quiz</button>
     </div>
   )
