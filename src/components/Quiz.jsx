@@ -44,9 +44,9 @@ function Quiz() {
       </div>
 
       {
-        (questions.length - 1 === currentQuestion)
-          ? <button onClick={finish}>Finish</button>
-          : <button onClick={next}>Next</button>
+        (questions.length - 1 === currentQuestion)                      //length=5, questions index = 4
+          ? <button onClick={finish}>Finish</button>                    //true
+          : <button onClick={next}>Next</button>                        //false
       }
     </div>
   )
