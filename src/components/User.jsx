@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useRef } from 'react'
 import { quizContext } from '../App'
 
 function User() {
-  const { gamestate, setGamestate, username, setUsername } = useContext(quizContext)    //destructuring
+  const { gamestate, setGamestate, username, setUsername } = useContext(quizContext)      //destructuring
   const userRef = useRef();
   
   useEffect(() => {

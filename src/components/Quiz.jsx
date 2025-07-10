@@ -30,7 +30,7 @@ function Quiz() {
   return (
   <div>
       <div className="quiz-question">
-         {questions[currentQuestion]['prompt']}                    {/* for questions */}
+         {questions[currentQuestion]['prompt']}                         {/* for questions */}
       </div>
 
       <div className="quiz-options">
