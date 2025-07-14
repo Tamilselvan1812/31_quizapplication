@@ -8,7 +8,7 @@ function Result() {
   function restartQuiz() {
     setUsername("");
     setScore(0);
-    setGamestate("users");             // Go back to the username input screen
+    setGamestate("users");                // Go back to the username input screen
   }
 
   return (
