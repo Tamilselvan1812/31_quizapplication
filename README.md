@@ -14,7 +14,6 @@ core concepts such as state management, props, and component-based architecture.
 - JavaScript (ES6)
 - HTML
 - CSS
-- Create React App
 
 ---
 
@@ -36,10 +35,4 @@ core concepts such as state management, props, and component-based architecture.
 
 
 
-
-Fetch questions from an external API
-
-Add user authentication
-
-Improve UI and responsiveness
 
