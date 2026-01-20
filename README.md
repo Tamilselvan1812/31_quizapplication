@@ -34,48 +34,8 @@ core concepts such as state management, props, and component-based architecture.
 - Conditional Rendering
 - Component Reusability
 
----
-
-## Project Structure
-quizapplication/
-│
-├── public/
-├── src/
-│ ├── components/
-│ ├── App.js
-│ ├── index.js
-│ └── App.css
-├── package.json
-├── package-lock.json
-├── README.md
 
 
-
----
-
-## How to Run the Project
-
-### Step 1: Install Dependencies
-```bash
-npm install
-Step 2: Start the Application
-bash
-Copy code
-npm start
-The application will run on:
-http://localhost:3000
-
-How the Application Works
-Questions are stored as data inside the application.
-
-The current question index and score are managed using React state.
-
-When a user selects an answer, the state updates and the next question is displayed.
-
-At the end of the quiz, the final score is shown to the user.
-
-Future Enhancements
-Add a timer for each question
 
 Fetch questions from an external API
 
