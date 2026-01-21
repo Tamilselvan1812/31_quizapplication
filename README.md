@@ -11,8 +11,7 @@ component-based architecture.
 - JavaScript (ES6)
 - HTML
 - CSS
-- Create React App
-
+  
 ## Features
 - Multiple-choice quiz questions
 - Dynamic question rendering
